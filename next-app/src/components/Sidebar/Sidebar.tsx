@@ -1,11 +1,14 @@
 'use client'
-import { HomeIcon, AlignRight } from 'lucide-react'
+import { Home, AlignRight, PackageOpen } from 'lucide-react'
 import { ItemSidebar } from './ItemSidebar'
 import { useSidebar } from '@/hooks'
 
 export const Sidebar = () => {
   const { open, onClick } = useSidebar()
-  const items = [{ name: 'Início', href: '/', icon: <HomeIcon size={20} /> }]
+  const items = [
+    { name: 'Início', href: '/', icon: <Home size={20} /> },
+    { name: 'Produtos', href: '/produtos', icon: <PackageOpen size={20} /> },
+  ]
 
   return (
     <div className="relative z-50 flex">
