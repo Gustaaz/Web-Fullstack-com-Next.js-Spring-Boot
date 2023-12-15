@@ -1,2 +1,2 @@
-export { Sidebar } from './Sidebar'
+export * from './Sidebar'
 export * from './layout'
