@@ -30,7 +30,7 @@ export default function RootLayout({
               <div className="pt-4 md:p-4">
                 <Breadcrumb />
 
-                <div className="mx-auto min-h-[85vh] bg-white ">
+                <div className="mx-auto min-h-[85vh] ">
                   <div className="px-2 w-full h-full">{children}</div>
                 </div>
               </div>
