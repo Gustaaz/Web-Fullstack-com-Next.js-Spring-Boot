@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function ProductListing() {
   return (
-    <div className="rounded-sm border border-stroke bg-white px-5 pt-6 pb-2.5 shadow-default sm:px-7.5 xl:pb-1">
+    <div className="rounded-sm border bg-white px-5 pt-6 pb-2.5 shadow-md sm:px-7.5 xl:pb-1">
       <div className="mb-8 flex items-center justify-between">
         <h4 className="text-xl font-semibold text-black">Produtos</h4>
         <Link
