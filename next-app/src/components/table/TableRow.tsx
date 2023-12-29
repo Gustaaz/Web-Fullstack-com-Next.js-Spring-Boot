@@ -2,7 +2,7 @@ import React from 'react'
 
 export const TableRow = ({ brand }: any) => {
   return (
-    <div className={`grid grid-cols-3 sm:grid-cols-5 `}>
+    <div className={`grid grid-cols-3 sm:grid-cols-5 border-b `}>
       <div className="flex items-center gap-3 p-2.5 xl:p-5">
         <p className="sm:block">{brand.name}</p>
       </div>
